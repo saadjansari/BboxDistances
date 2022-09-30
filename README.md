@@ -51,15 +51,16 @@ This should open a grid of images showing measured distances (in feet).
 #### Video
 To see an example of distance estimation between a pair of bounding boxes in a video, run:
 ```
-python3 main.py 1 ./examples/video1
+python3 main.py 1 ./examples/video2
 ```
 After run is successful, a plot showing the measured distance over time will open.
-An annotated movie showing measured distances is also saved here: `./examples/video1/movie_annotated.mp4`
+An annotated movie showing measured distances is also saved here: `./examples/video2/movie_annotated.mp4`
 
 #### Jupyter Sandbox
 ```
-jupyter-notebook main_interactive.py
+jupyter-notebook main_interactive.ipynb
 ```
+Note: Before running cells, ensure that the `env` kernel (added to jupyter earlier) is selected.
 
 ## Contributors
 
